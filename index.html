@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="data/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="data/script.js"></script>
+    <title>Nyutz Travel</title>
+  </head>
+
+  <body>
+      <nav class="navbar navbar-expand" id="navbar">
+        <div class="container">
+        <img src="img/kitty.jpg" width="50">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+          </div>
+        </div>
+        <form class="form-inline search-box">
+          <input class="form-control mr-sm-4 rounded-pill" type="search" placeholder="Search ur destination" aria-label="Search">
+          <input class="form-control mr-sm-4 rounded-pill" type="text" placeholder="Total Price: 0" readonly>
+        </form>
+        </div>
+      </nav>
+
+      <h1>Nyutz Travel</h1>
+      <div class="places">
+        <h5>All places</h5>
+      </div>
+
+      <select class="dropdown">
+        <option value="" selected>Select City</option>
+      </select>
+
+      <div class="card-deck">
+        <div class="card">
+        <img src="img/derawan.jpg" class="card-img" alt="derawan">
+          <div class="card-body">
+            <h5 class="card-title">Derawan Island</h5>
+            <h6 class="card-title">Berau</h6>
+            <p class="card-text">Derawan Island is located in the Derawan Islands, Derawan District, Berau Regency, East Kalimantan.
+              In the surrounding waters there is a marine park. On rocks at a depth of ten meters,
+              there is a coral known as the Blue Trigger Wall because of the 18 meter long coral there are many triggerfish.
+            </p>
+          </div>
+          <div class="card-footer">
+            <p>Total Expenses: 5000000</p>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">See More</button>
+            <button type="button" class="btn btn-primary">Add To Wishlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/waerebo.jpg" class="card-img" alt="waerebo">
+            <div class="card-body">
+              <h5 class="card-title">Wae Rebo</h5>
+              <h6 class="card-title">Flores</h6>
+              <p class="card-text">Wae Rebo is a remote and mysterious traditional village in Manggarai Regency, East Nusa Tenggara.
+                Located at an altitude of 1,200 m above sea level. In this village there are only 7 main houses or what is referred
+                to as Mbaru Niang.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p>Total Expenses: 8000000</p>
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">See More</button>
+              <button type="button" class="btn btn-primary">Add To Wishlist</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="modal fade popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn btn-primary">Add To Wishlist</button>
+            </div>                                                             
+            <div class="modal-body">                                                              
+              <img src="img/derawan.jpg" class="card-img" alt="derawan">                                                            
+              <div class="card-body">                                                            
+                <h5 class="card-title">Derawan Islands</h5>
+                <h6 class="card-title">Berau</h6>                                                            
+                <p class="card-text">Derawan islands is a part of Coral Triangle, which contains one of the
+                  richest marine biodiversity on earth.
+                  Located in a biodiversity hotspot, the Derawan Islands feature 872 species of reef fishes,
+                  507 species of coral, and invertebrates,
+                  including protected species (5 giants clam species, 2 sea turtles, coconut crab, etc.).
+                  Some of the islands harbor the heavily exploited turtle eggs and yet the largest green turtle
+                  nesting site in Indonesia.</p>
+              </div>
+              <div class="card-footer">
+              <p>Total Expenses: 7000000</p>
+              </div>                                                          
+            </div>                                                              
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>

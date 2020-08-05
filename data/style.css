@@ -1,0 +1,87 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 50px;
+}
+
+.places {
+  float: left;
+  margin-left: 70px;
+}
+
+.dropdown {
+  margin-left: 1000px;
+  max-width: 250px;
+  padding-bottom: inherit;
+}
+
+.card-deck {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+.blog {
+  margin-top: 70px;
+  width: 95%;
+}
+
+.blog img {
+  min-width: 200px;
+  max-width: 250px;
+  margin-left: 70px;
+  float: left;
+  display: block;
+  border: solid 3px black;
+}
+
+table {
+  border: 3px solid black;
+  text-align: center;
+  margin-left: 26%;
+  max-width: 40%;
+}
+
+.blog-text {
+  max-width: 70%;
+  text-align: justify;
+  height: initial;
+  padding-left: 27%;
+}
+
+.contact {
+  text-align: center;
+  float: initial;
+}
+
+.side-bar {
+  float: right;
+  padding-right: 3%;
+  width: auto;
+}
+
+label {
+  font-size: 10pt;
+  color: black;
+}
+  
+input[type="text"], input[type="email"], textarea {
+  size: 30;
+  padding: 8px;
+  width: 95%;
+  background: lightgrey;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+  
+.btnSend {
+  color: blue;
+  padding: 5px 8px;
+}
